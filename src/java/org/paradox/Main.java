@@ -1,5 +1,7 @@
 package org.paradox;
 
+import java.util.Arrays;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -13,5 +15,6 @@ public class Main {
         System.out.println("P[1021]: Remove Outercase Parentheses: " + new RemoveOutermostParentheses().removeOuterParentheses("(()())(())(()(()))"));
         System.out.println("P[1021]: Remove Outercase Parentheses: " + new RemoveOutermostParentheses().removeOuterParentheses("()()"));
 
+        System.out.println("P[1480]: Running Sums: " + Arrays.toString(new RunningSums().runningSum(new int[]{1, 2, 3, 4})));
     }
 }
