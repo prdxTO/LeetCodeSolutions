@@ -20,5 +20,7 @@ public class Main {
         System.out.println("P[1431]: Kids With the Greatest Number of Candies: " + new KidsWithGreatestNumberOfCandies().kidsWithCandies(new int[]{2,3,5,1,3}, 3));
 
         System.out.println("P[1470]: Shuffle the Array: " + Arrays.toString(new ShuffleTheArray().shuffle(new int[]{2, 5, 1, 3, 4, 7}, 3)));
+
+        System.out.println("P[1512]: Number of Good Pairs: " + new NumberOfGoodPairs().numIdenticalPairs(new int[]{1,2,3,1,1,3}));
     }
 }
